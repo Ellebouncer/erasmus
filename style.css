@@ -87,6 +87,12 @@
     color: #f0f4f8;
     margin: 0%;
 }
+.newsheadersmall {
+    text-align: center;
+    font-size: 2.5vw;
+    color: #f0f4f8;
+    margin: 0%;
+}
 .newstext {
     text-align: left;
     margin-left: 2%;
