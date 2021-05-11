@@ -1,12 +1,8 @@
 @media (max-width: 1200px) {
-    .footer {
-        margin-top: 5vh;
-    }
+
 }
 @media (max-width: 800px) {
-    .footer {
-        margin-top: 40vh;
-    }
+
     .newsheader {
         font-size: 4vw;
     }
@@ -19,9 +15,6 @@
     
 }
 @media (max-width: 460px) {
-    .footer {
-        margin-top: 40vh;
-    }
     .menualts {
         font-size: 4vw;
     }
@@ -36,22 +29,15 @@
     }
 }
 @media (max-width: 400px) {
-    .footer {
-        margin-top: 50vh;
-    }
+
 }
 
 @media (max-width: 350px) {
-    .footer {
-        margin-top: 65vh;
-    }
+
 }
 
 
 @media (min-height: 730px) {
-    .footer {
-        margin-top: 60vh;
-    }
     .menualts {
         font-size: 3.5vw;
     }
