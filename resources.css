@@ -102,7 +102,7 @@
 }
 
 
-@media (max-height: 700px) {
+@media (max-height: 700px) and (max-width: 500px) {
     .title {
         font-size: 4.75vw;
     }
@@ -125,7 +125,7 @@
         margin-top: 5vh;
     }
 }
-@media (max-height: 750px) {
+@media (max-height: 750px) and (max-width: 500px) {
     .title {
         font-size: 4.75vw;
     }
@@ -148,7 +148,7 @@
         margin-top: 10vh;
     }
 }
-@media (max-height: 850px) {
+@media (max-height: 850px) and (max-width: 500px) {
     .title {
         font-size: 4.75vw;
     }
@@ -171,27 +171,7 @@
         margin-top: 15vh;
     }
 }
-@media (max-height: 1100px) {
-    .title {
-        font-size: 5.5vw;
-    }
-    .menualts {
-        font-size: 3.25vw;
-    }
-    .newsheader {
-        font-size: 4vw;
-    }
-    .newstext {
-        font-size: 3vw;
-    }
-    .newslink {
-        font-size: 3vw;
-    }
-    .plainnewslink {
-        font-size: 3vw;
-    }
-}
-@media (max-height: 1400px) {
+@media (max-height: 1000px) and (max-width: 500px) {
     .title {
         font-size: 5.5vw;
     }
