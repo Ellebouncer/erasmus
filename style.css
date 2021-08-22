@@ -215,20 +215,11 @@
     height: 100%;
 }
 
-.creditpicwrapper {
+.creditimage {
     grid-row-start: 2;
     grid-row-end: 3;
-    grid-column-start: 4;
+    grid-column-start: 5;
     grid-column-end: 8;
-
-    display: grid;
-
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 5vw;
-    gap: 1vw;
-    box-sizing: border-box;
-}
-
-.creditimage {
-    height: 100%;
+    height: auto;
+    width: 100%;
 }
