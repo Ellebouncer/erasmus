@@ -4,41 +4,50 @@
     <head>
         <title>Erasmus Climate Project</title>
         <link type="text/css" rel="stylesheet" href="./style.css">
-        <link type="text/css" rel="stylesheet" href="./about.css">
-        <link rel="icon" type="image/png" href="./logover1.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="./logofavicon.png">
     </head>
     
     <body class="body">
-        <div class="menu">
-            <p class="title">Erasmus Climate Project</p>
-            <div class="space1"></div>
-            <div class="menualts">
-                <a href="./index.html" class="menualtsind">
-                    Home
-                </a>
-                <a href="./about.html" class="menualtsind">
-                    About
-                </a>
-                <a href="./participants.html" class="menualtsind">
-                    Participants
-                </a>
-                <a href="./resources.html" class="menualtsind">
-                    Resources
-                </a>
-            </div>
-            <div class="space2"></div>
-        </div>
+        <div class="sitewrapper">
+            <div class="menu">
+                
+                <div class="logotop">
+                    <a href="https://www.climate.eu.org">
+                    <img src="./logowhite.png" class="logotop">
+                    </a>
+                </div>  
 
-        <div class="content">
-            <div class="newscontainer">
-                <div class="space3"></div>
-                <div class="space1"></div>
-                <div class="newscontent">
+                <p class="title">Erasmus Climate Project</p>
+
+                <div class="menualts">
+                    <a href="https://www.climate.eu.org" class="menualts">
+                        Home
+                    </a>
+
+                    <a href="./about.html" class="menualts">
+                        About
+                    </a>
+
+                    <a href="./participants.html" class="menualts">
+                        Participants
+                    </a>
+
+                    <a href="./resources.html" class="menualts">
+                        Resources
+                    </a>
+                </div>
+
+            </div>
+    
+            <div class="content" style="grid-template-rows: repeat(1, auto) 1fr;">
+
+                <div class="newscontainer">
+                    <div class="newscontainerroof"></div>
                     <p class="newsheader">
                         About the project
                     </p>
-                    <p class="newstext">
+                    <div class="newscontent">                      
+                        <p class="newstext">
                         Climate change is one of the biggest, if not the biggest, challenges in the 21st century.<br>
                         In this project, at a European level with partners from four different countries, climate change and its supposed consequences for different European countries from the far north to the far south will be examined from different perspectives.<br>
                         This is to raise awareness of the urgency of our immediate action.<br>
@@ -52,29 +61,42 @@
                         In the intensive cooperation of students from different European countries, they acquire intercultural competence.<br>
                         By processing all materials in English, the students improve their English language skills.<br>
                         By presenting their results in their school, at the trans-European project workshops, at information days and before panel discussions, the pupils strengthen their presentation and communication skills.<br>
-                    </p>
+                        </p>
+                    </div>
                 </div>
             </div>
-    </body>
-
-
-    <footer class="footer">
-        <div class="footerimage">
-            <img src="./credit.png" class="creditimage">
+            
+            
         </div>
         
-        <table class="table">
-            <thead>
-                <th class="th">Created by:</th>
-                <th class="th">Contact:</th>
-                <th class="th">Last updated:</th>
-            </thead>
-            <tbody>
-                <td class="td">Elias Eriksson</td>
-                <td class="td"><a class="td" href="mailto:admin@climate.eu.org">admin@climate.eu.org</a></td>
-                <td class="td">2021-05-25</td>
-            </tbody>
-        </table>
-    </footer>
+    </body>
+    <div class="footer">
+        <p class="footerh1" style="grid-column-start: 2;">Financed by:</p>
+        <p class="footerh1" style="grid-column-start: 5;">Participants:</p>
+        <div class="erasmusfooterpic">
+            <img src="./erasmus+logo.png" class="erasmusfooterpic">
+        </div>
+        <div class="creditpicwrapper">
+            <div class="creditimage" style="grid-column-start: 2;">
+                <img src="./gds1logo.png" class="creditimage">
+            </div>
+            <div class="creditimage">
+                <img src="./strömbackaskolan.jpg" class="creditimage">
+            </div>
+            <div class="creditimage">
+                <img src="./polotrefano.jpg" class="creditimage">
+            </div>
+            <div class="creditimage">
+                <img src="./cypernlogo.jpg" class="creditimage" style="height: 100%; width: auto;">
+            </div>
+        </div>
 
+        <p class="footerh2" style="grid-column-start: 2;">Created by:</p>
+        <p class="footerh2" style="grid-column-start: 4;">Contact:</p>
+        <p class="footerh2" style="grid-column-start: 6;">Last updated:</p>
+
+        <p class="footertext" style="grid-column-start: 2;">Elias Eriksson</p>
+        <p class="footertext" style="grid-column-start: 4;"><a class="footertext" href="mailto:admin@climate.eu.org">admin@climate.eu.org</a></p>
+        <p class="footertext" style="grid-column-start: 6;">2021-08-22</p>
+    </div>
 </html>
