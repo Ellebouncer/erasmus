@@ -5,6 +5,7 @@
     background-color: #dbdbdb;
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 .sitewrapper {
     height: 100%;
