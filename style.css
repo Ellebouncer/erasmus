@@ -32,7 +32,7 @@
 .sitewrapperresources {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: calc(100vh + 20vmin) repeat(14, minmax(75vh, auto) 20vmin) auto;
+    grid-template-rows: calc(100vh + 20vmin) repeat(2, minmax(75vh, auto) 20vmin) auto;
     box-sizing: border-box;
 }
 
@@ -233,6 +233,16 @@
     grid-template-rows: repeat(12, 1fr);
 }
 
+.filesection {
+    grid-row: span 1;
+
+    padding: 6vmin 0 6vmin 0;
+    margin: -1.5px 0 -1.5px 0;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10vmin repeat(2, auto);
+}
 
 .contentwrapper {
     grid-column-start: 2;
@@ -247,9 +257,15 @@
     grid-column-end: 12;
 }
 
-.sitewrapperresources.contentwrapper {
-    grid-column-start: 2;
-    grid-column-end: 12;
+.fileentrycontainer {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    grid-column-end: 11;
+}
+
+.filewrapper  {
+    margin: 0.25rem 0 0 1.75rem;
+    
 }
 
 .contentheader {
@@ -259,10 +275,6 @@
     font-family: 'Lato', sans-serif;
     color: #f0f4f8;
     font-weight: bold;
-}
-
-#chr {
-    text-align: left;
 }
 
 .contenttext {
@@ -283,14 +295,28 @@
     color: #f0f4f8;
 }
 
-.doclink {
-    margin: 1.5vmin 0 0 0;
-    text-decoration: none;
+.docheader {
+    margin: 1.25rem 0 0 0;
     font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: #f0f4f8;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.doclink {
+    text-decoration: none;
+    font-size: 1.25rem;
     font-family: 'Lato', sans-serif;
     color: #f0f4f8;
 }
 
+.expandArrow {
+    height: 1rem;
+    padding-left: 0.5rem;
+}
 
 
 
@@ -535,6 +561,10 @@
 
     .contentlink {
         font-size: 0.8rem;
+    }
+
+    .docheader {
+        font-size: 1.25rem;
     }
 
     .doclink {

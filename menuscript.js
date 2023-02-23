@@ -1,13 +1,29 @@
-
-
 function menuIconClick() {
     changeVisibility("mainTitle", "block");
     changeVisibility("mam", "grid");
-    //changeVisibility("menuimageleft", "block");
-    //changeVisibility("menuimageright", "block");
     changeVisibility("toppbackgroundaddonbelow", "block");
     changeIcon();
     changeMenuBackground();
+}
+
+function expandFiles(ElemID, trigger) {
+    let elem = document.getElementById(ElemID);
+    let img = trigger.getElementsByTagName('img')[0];
+
+    if (elem.hidden === true)
+    {
+        elem.hidden = false;
+        img.src = "./retractArrow.png"
+        img.style.height = "auto";
+        img.style.width ="1rem";
+    }
+    else
+    {
+        elem.hidden = true;
+        img.src = "./expandArrow.png"
+        img.style.height = "1rem";
+        img.style.width ="auto";
+    }
 }
 
 function changeVisibility(ElemID, dispType) {
