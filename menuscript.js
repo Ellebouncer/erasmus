@@ -127,9 +127,21 @@ window.onload = function(){
             ELAS.textContent = "Elias Eriksson";
             ELASAS.textContent = "Created by:";
         }
+        if (ELASCLICKED == 50) {
+            ELAS.textContent = "Elliot Sävenstedt";
+            ELASAS.textContent = "Replaced by:";
+        }
+        if (ELASCLICKED == 60) {
+            ELAS.textContent = "Elias Eriksson";
+            ELASAS.textContent = "Created by:";
+        }
         if (ELASCLICKED == 100) {
             ELAS.textContent = "Ellebouncer#0591";
             ELASAS.textContent = "Created by:";
+        }
+        if (ELASCLICKED == 200) {
+            ELAS.textContent = "Goodbye!";
+            ELASAS.textContent = "Change da world, my last message:";
         }
     }
 };
